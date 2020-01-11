@@ -1,0 +1,23 @@
+#calculator
+{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 50px;
+  background-color: black;
+  padding: 50px;
+  height: 400px;
+}
+
+.options
+{
+  text-align: center;
+  font-size: 48px;
+  background-color: #4c8f5e;
+  font-weight: bold;
+}
+
+#result
+{
+  grid-column-start: 2;
+  grid-column-end: 4; 
+}
